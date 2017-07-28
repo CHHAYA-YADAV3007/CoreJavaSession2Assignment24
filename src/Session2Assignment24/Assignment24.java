@@ -7,13 +7,13 @@ public class Assignment24
 	
 	public static void main(String[] args) 
 	{
-	    float p_marks = 0 ;
+	    int p_marks = 0 ;
 	    
-	    float c_marks = 0 ;
+	    int c_marks = 0 ;
 	    
-	    float m_marks = 0 ;
+	    int m_marks = 0 ;
 	    
-	    float average = 0 ; 
+	    float average  ; 
 	    
 	    char grade ;
 	   
@@ -42,7 +42,7 @@ public class Assignment24
 
 // calculate the average for student grades
 		 
-         average = (float) ((p_marks + c_marks + m_marks )/3);
+         average = (int) ((p_marks + c_marks + m_marks )/3);
 		 
 // determine the student grade based on the average
          
